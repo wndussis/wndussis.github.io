@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+  body {
+    background-color: rgb(112, 98, 109);
+  }
+     #square1 {
+  width: 100px;
+  height: 30px;
+  background: rgb(157, 164, 196);
+  position: absolute;
+  left: 400px;
+  top: 150px;
+  font-weight: bold;
+  
+}
+
+#square2 {
+  width: 100px;
+  height: 30px;
+  background: rgb(157, 164, 196);
+  position: absolute;
+  left: 650px;
+  top: 150px;
+  font-weight: bold;
+  
+}
+
+#triangle1 {
+      width: 0;
+      height: 0;
+      border-top: 100px solid #1b0bf2;
+      border-right: 100px solid transparent;
+      position: absolute;
+      left: 400px;
+      top: 98px;
+    }
+#triangle2 {
+      width: 0;
+      height: 0;
+      border-top: 100px solid red;
+      border-left: 100px solid transparent;
+      position: absolute;
+      left: 650px;
+      top: 98px;
+    }
+
+.text {
+  text-align: center;
+}
+.tile1 {
+          width: 380px;
+          height: 425px;
+          margin: 142px;
+          padding: 30px;
+          background-color: #a07cb8;
+          box-shadow: 0px 35px 77px -17px rgba(0, 0, 0, .4);
+          color: #fff;
+          overflow: hidden;
+          display: inline-block;
+          position: absolute;
+          left: -76px;
+          top: 96px;
+        }
+.tile2 {
+          width: 380px;
+          height: 425px;
+          margin: 142px;
+          padding: 30px;
+          background-color:  #a07cb8;
+          box-shadow: 0px 35px 77px -17px rgba(0, 0, 0, .4);
+          color: #fff;
+          overflow: hidden;
+          display: inline-block;
+          position: absolute;
+          left: 515px;
+          top: 96px;
+        }
+
+p {
+font-size: small;
+}
+#button {
+        color: rgb(148, 50, 148);
+        position: absolute;
+        left: -2px;
+        top: 0px;
+      }
+
+  
+    </style>
+</head>
+<body>
+     <h1 class="text">&nbsp;&nbsp;which one ?</h1>
+
+     <span id="triangle1" class="text"></span>
+     <span id="triangle2" class="text"></span>
+
+
+  <span id="square1" class="text">Front-end</span>
+  <span id="square2" class="text">Back-end</span>
+
+  <div class="tile1">
+    <h1>Front-end 선택</h1>
+    <h3>3년후?</h3>
+    <p>Front-end 개발자로서 css의 기본기를 잘 익힌후에
+      flexbox 또는 grid를 공부해서 적용해본다. javascript는 
+     여러분야에서 쓰일수있고 javascript 하나만으로 구현할수 있는것들이 많기때문에
+    javascript를 깊게 공부할 것이다. 그리고 React,Angular,Vue.js 와같은 프레임 워크중에 선택하여 공부할것이다.</p>
+    <h3>5년후?</h3>
+    <p>
+    fullStack 개발자가 되기위해  필요한 것들을 찾아서 공부하면서 실력을 쌓는다
+    </p>
+    <h3>10년후?</h3>
+    <p>fullStack 개발자가 되어서 여러명의 몫을 나 한명이 할수 있도록 실력을 꾸준히 키워서 
+      혼자 어플리케이션도 개발해보고,여러가지 시도를 해보고싶다. </p>
+</div>
+
+
+<div class="tile2">
+    <h1>Back-end 선택</h1>
+    <h3>3년후?</h3>
+    <p>java언어를 Spring Framework와 함께 꾸준히 계속 공부하면서 기본에 충실히 공부할것이다.
+       </p>
+    <h3>5년후?</h3>
+    <p>
+      fullStack 개발자가 되기위해  필요한 것들을 찾아서 공부하면서 실력을 쌓는다
+    </p>
+    <h3>10년후?</h3>
+    <p>fullStack 개발자가 되어서 여러명의 몫을 나 한명이 할수 있도록 실력을 꾸준히 키워서 
+      혼자 어플리케이션도 개발해보고,여러가지 시도를 해보고싶다. </p>
+</div>
+
+
+<a href="index.html">
+  <input type="button" id="button"  value="◀">
+</a>
+    
+</body>
+</html>

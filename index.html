@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landing page</title>
+    <style>
+    #head {
+      color: lightgoldenrodyellow;
+      text-shadow: 7px 3px 7px rgb(121, 201, 201);
+    }
+
+    header {
+      text-align: center;
+    }
+     nav {
+    height: 25px;
+    background-color: rgb(162 142 185);
+    padding: 5px 0;
+    box-shadow: 0px 11px 40px 16px rgb(150 126 186);
+    text-align: center;
+  }
+  a {
+    color: rgb(21, 21, 22);
+    text-shadow: 0px 1px 0px rgb(21 44 149);
+  }
+ 
+  #list {
+    list-style-type : none;
+    padding-left : 0px; /* 공백없이 왼쪽으로 붙음*/
+    width: 369px;
+    margin: 0 auto;
+  }
+  #list li {
+    
+    font-weight: bold;
+    float: left;  /* 떠서 왼쪽으로 붙음*/
+    margin-right : 15px;
+  }
+  #bg {
+        width: 100%;
+        height: 500px;
+        position: fixed; 
+        top: 0; 
+        left: 0; 
+        min-width: 100%;
+        min-height: 100%;
+   
+    
+  }
+  body {
+    background: url('img/배경사진3.jpg') center center/cover no-repeat fixed 
+  }
+  A:link {
+    text-decoration: none;
+    color: rgba(81, 30, 85, 0.425);
+  }
+
+  pic {
+  position: absolute;
+  left: 650px;
+  top: 150px; 
+  }
+
+    </style>
+</head>
+<body>
+    <header>
+     <h1 id="head">About Juyeon's Story</h1>
+    </header>
+    
+    <nav>
+         <ul id="list">
+             <li><a href="01_It's me ! page.html" >It's me !</a></li> 
+             <li><a href="02_Travle page.html" >Travle</a></li>
+             <li><a href="03_개발자 roadmap page.html">RoadMap</a></li>
+             <li><a href="04_회원가입 page.html" >JoinMembership</a></li>
+            </ul>
+        </nav>
+        <article>
+          <iframe  seamless="false" align="center" width="700px" height="600px" frameborder="0px" scrolling="no"></iframe>
+    </article>
+    <aside>
+     <table hidden="440px">
+     </table>
+    </aside>
+    <footer align="center">
+     Juyeon's Homepage  😊
+    </footer>
+</body>
+</html>
